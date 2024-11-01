@@ -1,0 +1,216 @@
+/* Reset */
+.dc-social ul, .dc-social li, .dc-social h3 {padding: 0; margin: 0; list-style: none!important;}
+.dcsmt {padding: 0!important; margin: 0!important; list-style: none!important;}
+.dc-social {
+font-family: 'Lucida Grande', 'Verdana', sans-serif;
+font-size: 12px;
+line-height: 1.3em;
+color: #666;
+}
+.dc-social.static {
+margin-bottom: 1em;
+}
+.dc-social a.dcsmt-close-tab {
+display: block;
+width: 16px;
+height: 16px;
+background: url(images/close.png) no-repeat center center;
+position: absolute;
+top: 10px;
+right: 10px;
+}
+.dc-social.static a.dcsmt-close-tab {
+display: none;
+}
+.dc-social a {
+text-decoration:none;
+}
+.dc-social a:link, .dc-social a:visited, .dc-social a:active{
+}
+.dc-social a:hover {
+}
+
+.sliding .dcsmt {
+background: #fff;
+border: 1px solid #ccc!important;
+}
+
+.static  .dcsmt{
+background: #fff;
+border: 1px solid #ccc!important;
+}
+/* Sliding */
+.dc-social.sliding.right .dcsmt {
+border-radius: 0 0 0 5px; -webkit-border-radius: 0 0 5px 5px;
+}
+.dc-social.sliding.right .social-tabs li {
+border-radius: 5px 0 0 5px; -webkit-border-radius: 5px 0 0 5px;
+border-right-color: #fff;
+padding: 5px 3px 3px 5px;
+}
+.dc-social.sliding.right .social-tabs li.active {
+padding: 4px 4px 2px 4px;
+margin-right: -1px;
+}
+
+.dc-social.sliding.left .dcsmt {
+border-radius: 0 0 5px 0; -webkit-border-radius: 0 0 5px 0;
+}
+.dc-social.sliding.left .social-tabs li {
+border-radius: 0 5px 5px 0; -webkit-border-radius: 0 5px 5px 0;
+border-left-color: #fff;
+padding: 5px 5px 3px 5px;
+}
+.dc-social.sliding.left .social-tabs li.active {
+padding: 4px 3px 2px 4px;
+}
+
+.dc-social.sliding.bottom .dcsmt {
+border-radius: 5px 5px 0 0 ; -webkit-border-radius:5px 5px 0 0 ;
+}
+.dc-social.sliding.bottom .social-tabs li {
+border-radius: 5px 5px 0 0; -webkit-border-radius: 5px 5px 0 0;
+border-bottom-color: #fff;
+padding: 6px 4px 2px 4px;
+}
+.dc-social.sliding.bottom .social-tabs li.active {
+padding: 6px 3px 3px 3px;
+margin-bottom: -1px;
+}
+
+.dc-social.sliding.top .dcsmt {
+border-radius: 0 0 5px 5px; -webkit-border-radius: 0 0 5px 5px;
+}
+.dc-social.sliding.top .social-tabs li {
+border-radius: 0 0 5px 5px; -webkit-border-radius: 0 0 5px 5px;
+border-top-color: #fff;
+padding: 6px 5px 4px 5px;;
+}
+.dc-social.sliding.top .social-tabs li.active {
+padding: 5px 4px 3px 4px;
+}
+
+.dc-social.sliding.right .social-tabs {left: 1px;}
+.dc-social.sliding.bottom .social-tabs {top: -2px;}
+.dc-social.sliding.left .social-tabs {right: 1px;}
+.dc-social.sliding.top .social-tabs {bottom: 1px;}
+
+/* Static */
+.dc-social.static .dcsmt {
+border-radius: 0 5px 5px 5px; -webkit-border-radius: 0 5px 5px 5px;
+}
+.dc-social.static .social-tabs {
+margin-bottom: -1px;
+}
+.dc-social.static .social-tabs li {
+border-radius: 5px 5px 0 0; -webkit-border-radius: 5px 5px 0 0;
+border-bottom-color: #fff;
+padding: 5px 5px 2px 5px;
+}
+.dc-social.static .social-tabs li.active {
+padding: 4px 4px 2px 4px;
+margin-bottom: -1px;
+}
+
+/* Sliding Tabs */
+.dcsmt {
+overflow: hidden; /* Required to hide the inactive slides */
+}
+li.tab-content {
+position: relative;
+overflow: hidden;
+}
+.tab-content h3 {
+margin-bottom: 5px;
+}
+.tab-content h3 a {
+font-size: 14px; 
+color: #555; 
+text-decoration: none;
+}
+li.tab-content ul {
+font-size: 11px;
+}
+.tab-inner {
+padding: 10px;
+}
+.tab-inner ul {
+margin: 0!important;
+}
+li.dcsmt-error {
+}
+
+/* RSS Tab */
+.tab-rss{
+}
+ul.list-dcsmt-rss {
+}
+li.dcsmt-rss-item {
+padding: 5px;
+}
+li.dcsmt-rss-item.odd {
+background: #efefef;
+}
+li.dcsmt-rss-item.even {
+background: #fff;
+}
+
+/* Twitter Tab */
+.dcsmt-twitter-follow {
+margin-bottom: 5px;
+}
+li.dcsmt-twitter-item {
+padding: 5px;
+}
+li.dcsmt-twitter-item.odd {
+background: #efefef;
+}
+li.dcsmt-twitter-item.even {
+background: #fff;
+}
+
+/* Facebook Tab */
+.tab-facebook{
+}
+
+/* Plusone Tab */
+.tab-plusone {
+}
+.tab-plusone h3 img {float: left; margin: 0 10px 5px 0; border: 1px solid #ccc;}
+.tab-plusone h4 {padding: 5px; font-weight: bold;}
+.tab-plusone .plus {
+clear: both;
+}
+li.dcsmt-plusone-item {
+padding: 5px;
+}
+li.dcsmt-plusone-item.odd {
+background: #efefef;
+}
+li.dcsmt-plusone-item.even {
+background: #fff;
+}
+
+/* Tabbed Icons */
+.social-tabs {
+list-style: none;
+padding: 0;
+}
+.social-tabs li {
+display: block; 
+padding: 5px;
+float: left;
+list-style: none;
+}
+.social-tabs li img {
+display: inline;
+margin: 0 0 -2px 0;
+padding: 0;
+}
+.social-tabs li.active {
+background: #fff;
+border: 1px solid #ccc;
+}
+.list-dcsmt-plusone {
+clear: both;
+}
